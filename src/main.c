@@ -36,6 +36,7 @@ pthread_barrier_t threads_initialized;
 
 list_node_t *head = NULL;
 
+// Callback functions for printing a node in a list
 void pf(list_node_t *item) {
     printf("%d", item->val);
 }
